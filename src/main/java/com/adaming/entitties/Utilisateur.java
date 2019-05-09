@@ -17,7 +17,7 @@ import javax.persistence.JoinColumn;
 
 
 @Entity //donne l'accès à la classe au JPA repository
-@Table
+@Table (name="UtilisateurGit")
 public class Utilisateur implements Serializable{
 	/**
 	 * 
